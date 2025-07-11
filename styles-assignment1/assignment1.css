@@ -1,1 +1,86 @@
+/*Font setting*/   
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*header-footer Logo/Website name color*/
+.color{
+    color: #4E47FF;
+}
+/*header-main max width*/
+header nav,main{
+    max-width:1140px;
+}
+
+/*Header styles*/
+header{
+    background-image:url(../images/Hero-bg.png);
+    height:650px;
+}
+/*nav*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px auto;
+}
+nav h3{
+    font-size: 34px;
+    font-weight: 900;
+}
+/*Banner section*/
+.banner{
+    max-width: 905px;
+    margin:158px auto;
     
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#banner-button{
+    display: block;
+    margin: 20px auto;
+
+}
+
+
+/*All buttons*/
+.button{
+    background-color:#4E47FF;
+    border-color: #4E47FF;
+    padding: 5px;
+    color:#FFFFFF;
+    border-radius:5px;
+    font-size:16px;
+    font-weight:bold;
+    text-align: center;
+    min-width:132px;
+    max-width:229px;
+    height:48px;
+}
+.button:hover{
+    background-color:yellow;
+    cursor: pointer;
+    color: black;
+    border-color: yellow;
+
+}
+
+/*Main styles*/
+
+.action-productive-user{
+    margin-top:116px;
+}
+.feedback-to-get-in-touch{
+    margin-top: 137px;
+}
