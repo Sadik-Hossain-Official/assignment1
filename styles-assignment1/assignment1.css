@@ -85,7 +85,8 @@ nav h3{
    display: flex;
    align-items: center;
    justify-content: space-around;
-   margin: 116px auto;
+   margin: 0 auto;
+   padding-top: 120px;
 }
 .action-box{
     max-width:517px;
@@ -181,6 +182,7 @@ nav h3{
     background-color: #FFFFFF;
     border-radius:10px;
     text-align: center;
+    padding-bottom:70px;
 
 }
 .marketing-title{
@@ -194,3 +196,54 @@ nav h3{
     font-weight: 300;
 }
 /*Get in touch section*/
+.info{
+    display: flex;
+    max-width:50%;
+    gap:100px;
+    padding-bottom:80px;
+    justify-content: space-between;
+    
+}
+.main-message{
+   font-size:80px;
+    font-weight:bold;
+    align-items:center;
+}
+label{
+    font-weight: 500;
+    font-size:18px;
+}
+input[type="email"],input[type="text"]
+{
+    width:400px;
+    height:50px;
+    padding:10px;
+    font-size:20px;
+    font-weight:300px;
+    background-color: #FFFFFF;
+    border-radius:10px;
+
+}
+textarea{
+    width:400px;
+    height:150px;
+    padding:10px; 
+    font-size:20px;
+    font-weight:300px;
+    background-color: #FFFFFF;
+    border-radius:10px;
+}
+input[type="submit"]
+{
+    width:430px;
+    height:50px;
+    padding:10px;
+    text-align: center;
+    background-color: #4E47FF;
+    border-radius:10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    
+}
+/*footer section*/
+
