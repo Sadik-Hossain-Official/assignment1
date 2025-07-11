@@ -9,7 +9,6 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
 /*header-footer Logo/Website name color*/
 .color{
     color: #4E47FF;
@@ -243,7 +242,12 @@ input[type="submit"]
     border-radius:10px;
     color: #FFFFFF;
     font-weight: 700;
-    
+}
+input[type="submit"]:hover{
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+    border-color: yellow;
 }
 /*footer section*/
 footer{
