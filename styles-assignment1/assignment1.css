@@ -50,7 +50,7 @@ nav h3{
     text-align: center;
     margin-bottom: 0px;
 }
-#banner-button{
+.banner-button{
     display: block;
     margin: 20px auto;
 
@@ -177,3 +177,20 @@ nav h3{
     font-size: small;
 }
 /*ready to focus part*/
+.marketing{
+    background-color: #FFFFFF;
+    border-radius:10px;
+    text-align: center;
+
+}
+.marketing-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top:60px;
+    margin-bottom:0px;
+}
+.marketing-subtitle{
+    font-size:16px;
+    font-weight: 300;
+}
+/*Get in touch section*/
