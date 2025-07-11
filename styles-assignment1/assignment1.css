@@ -101,3 +101,34 @@ nav h3{
     
 }
 /*productive user section*/
+.productive-users{
+    background-color: #c9c8dd;
+    margin: 116px auto;
+    border-radius: 24px;
+}
+.title{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding:50px 175px 0px;
+    margin-bottom: 0px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 175px 74px;
+    margin-top: 0px;
+    gap:158px;
+}
+.quantity{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.description{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+/*user feedback*/
