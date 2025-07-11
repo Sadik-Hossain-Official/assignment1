@@ -14,6 +14,9 @@
 .color{
     color: #4E47FF;
 }
+header,main{
+    background-color: #f5f8ff;
+}
 /*header-main max width*/
 .max-width{
     max-width:1140px;
@@ -132,3 +135,45 @@ nav h3{
     margin-top: 0px;
 }
 /*user feedback*/
+.feedbacks{
+    margin:137px auto;
+}
+.feedbacks h3{
+    text-align: center;
+}
+.feedback{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.rating{
+    width:300px;
+    height:200px;
+    padding:24px;
+    border-radius:14px;
+    background-color: #FFFFFF;
+}
+.feedback-title{
+    margin-bottom: 0px;
+}
+.feedback-subtitle{
+    font-weight: 300;
+    margin-top: 0px;
+}
+.image-date{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.name{
+    font-weight: 500px;
+    margin-bottom: 0px;
+}
+.date{
+    font-weight: 200px;
+    margin-top:0px;
+    font-size: small;
+}
+/*ready to focus part*/
